@@ -6,6 +6,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
+        sleep(3)
         return true
     }
 
@@ -18,6 +19,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> UISceneConfiguration {
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
+    
 
     func application(
         _ application: UIApplication,
